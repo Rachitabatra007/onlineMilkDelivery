@@ -1,0 +1,71 @@
+.filter-checkbox-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.filter-checkbox-form label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filter-radio-button {
+    cursor: pointer;
+}
+.top-nav {
+    margin-bottom: 0px !important;
+}
+.current-items-header {
+    text-align: center;
+}
+.left-filter-nav {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    position: relative;
+    height: 100vh;
+}
+.left-filter-nav .applyFilter{
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 40px;
+    background-color: #efef8c;
+    top: 10px;
+    border: 10px;
+    border-right: 5px solid #9c9c6a;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+.subcategory {
+    margin-top: 20px;
+}
+.main-category {
+    flex-grow: 3;
+}
+.subcategory {
+    flex-grow: 5;
+    padding-left: 10px;
+}
+.border-none {
+    border: none !important;
+}
+.checkbox-margin-right {
+    margin-right: 10px;
+}
+.card {
+    margin: 15px;
+}
+.card-text {
+    font-size: 0.8rem !important;
+}
+.card-img-top {
+    height: 265px;
+}
+#result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

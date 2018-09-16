@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/index-page-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-size: 1em;
+    font-family: Poppins-Regular, sans-serif;
+}
+a {
+    border: none;
+    text-decoration: none;
+}
+nav {
+    height: 10vh;
+}
+nav p {
+    float: right;
+    color: white;
+    margin-right: 20px;
+}
+nav p a:first-child, nav p span:first-child {
+    padding: 5px;
+    color: white;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav p span:last-child {
+    background-color: #04a397;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container > span {
+    color: white;
+    font-size: 2rem;
+    border: 5px solid white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    transform: rotateZ(5deg);
+}
+#main-container-content {
+    transform: rotateZ(-5deg);
+}

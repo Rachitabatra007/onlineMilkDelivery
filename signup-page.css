@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/background-signup.png');
+    background-repeat: no-repeat;
+}
+.card {
+    width: 20rem !important;
+    box-shadow: 0px 0px 20px #b7b7b7;
+}
+.card-body h5{
+    text-align: center;
+}
+.signup-form-container {
+    padding-top: 0px;
+}
+.submit-button {
+    margin-top: 1rem;
+}
